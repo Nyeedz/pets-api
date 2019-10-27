@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "pets",
+  "info": {
+    "name": "pets",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "aniversario": {
+      "type": "date"
+    },
+    "peso": {
+      "type": "decimal"
+    },
+    "raca": {
+      "type": "string"
+    },
+    "foto": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "user": {
+      "model": "user",
+      "via": "pets",
+      "plugin": "users-permissions"
+    }
+  }
+}
