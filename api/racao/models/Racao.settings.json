@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "racao",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "peso": {
+      "type": "decimal"
+    },
+    "pets": {
+      "collection": "pets",
+      "via": "racao"
+    }
+  }
+}

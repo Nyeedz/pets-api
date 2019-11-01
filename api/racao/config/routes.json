@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/racaos",
+      "handler": "Racao.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/racaos/count",
+      "handler": "Racao.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/racaos/:_id",
+      "handler": "Racao.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/racaos",
+      "handler": "Racao.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/racaos/:_id",
+      "handler": "Racao.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/racaos/:_id",
+      "handler": "Racao.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
