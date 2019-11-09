@@ -18,6 +18,10 @@
     "pets": {
       "collection": "pets",
       "via": "racao"
+    },
+    "avaliacaos": {
+      "collection": "avaliacao",
+      "via": "racao"
     }
   }
 }

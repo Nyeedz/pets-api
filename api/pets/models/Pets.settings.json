@@ -30,14 +30,18 @@
       "via": "related",
       "plugin": "upload"
     },
+    "racao": {
+      "model": "racao",
+      "via": "pets"
+    },
     "user": {
       "model": "user",
       "via": "pets",
       "plugin": "users-permissions"
     },
-    "racao": {
-      "model": "racao",
-      "via": "pets"
+    "avaliacaos": {
+      "collection": "avaliacao",
+      "via": "pet"
     }
   }
 }

@@ -64,6 +64,24 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
+    },
+    "activated": {
+      "type": "boolean"
+    },
+    "numero": {
+      "type": "integer"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "bairro": {
+      "type": "string"
     }
   }
 }
