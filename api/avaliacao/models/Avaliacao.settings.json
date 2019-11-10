@@ -15,12 +15,12 @@
     "nota": {
       "type": "integer"
     },
-    "racao": {
-      "model": "racao",
-      "via": "avaliacaos"
-    },
     "pet": {
       "model": "pets",
+      "via": "avaliacaos"
+    },
+    "racao": {
+      "model": "racao",
       "via": "avaliacaos"
     }
   }

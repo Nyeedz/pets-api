@@ -30,10 +30,6 @@
       "via": "related",
       "plugin": "upload"
     },
-    "racao": {
-      "model": "racao",
-      "via": "pets"
-    },
     "user": {
       "model": "user",
       "via": "pets",
@@ -42,6 +38,10 @@
     "avaliacaos": {
       "collection": "avaliacao",
       "via": "pet"
+    },
+    "racao": {
+      "model": "racao",
+      "via": "pets"
     }
   }
 }
