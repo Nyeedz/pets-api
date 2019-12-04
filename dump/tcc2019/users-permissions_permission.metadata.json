@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"tcc2019.users-permissions_permission"}],"uuid":"e48a491c13824dbf9ffe74a3f2b6f976"}
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"tcc2019.users-permissions_permission"}],"uuid":"4b3a2a550ee2405b8f64296fb4ae84ca"}

@@ -1,1 +1,1 @@
-{"options":{},"indexes":[{"v":2,"key":{"_id":1},"name":"_id_","ns":"tcc2019.users-permissions_role"},{"v":2,"unique":true,"key":{"type":1},"name":"type_1","ns":"tcc2019.users-permissions_role","background":true}],"uuid":"97a0dfd661ea4dab90ec4c45c28246dd"}
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"tcc2019.users-permissions_role"},{"v":{"$numberInt":"2"},"unique":true,"key":{"type":{"$numberInt":"1"}},"name":"type_1","ns":"tcc2019.users-permissions_role","background":true}],"uuid":"781b6dce85504f6e9e046610d6ae44a8"}

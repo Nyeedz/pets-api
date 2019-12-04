@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"tcc2019.historico"}],"uuid":"4b14bb1b3244476fb5c663a96dece6c2"}
