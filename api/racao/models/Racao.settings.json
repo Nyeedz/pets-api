@@ -28,6 +28,14 @@
     },
     "preco": {
       "type": "decimal"
+    },
+    "historicos": {
+      "collection": "historico",
+      "via": "racao"
+    },
+    "favoritos": {
+      "collection": "favorito",
+      "via": "racao"
     }
   }
 }

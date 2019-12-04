@@ -42,6 +42,14 @@
     "racao": {
       "model": "racao",
       "via": "pets"
+    },
+    "historicos": {
+      "collection": "historico",
+      "via": "pet"
+    },
+    "favoritos": {
+      "collection": "favorito",
+      "via": "pet"
     }
   }
 }

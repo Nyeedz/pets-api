@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "historico",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "pet": {
+      "model": "pets",
+      "via": "historicos"
+    },
+    "racao": {
+      "model": "racao",
+      "via": "historicos"
+    }
+  }
+}

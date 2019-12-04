@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "favorito",
+  "info": {
+    "name": "favorito",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "pet": {
+      "model": "pets",
+      "via": "favoritos"
+    },
+    "racao": {
+      "model": "racao",
+      "via": "favoritos"
+    }
+  }
+}
